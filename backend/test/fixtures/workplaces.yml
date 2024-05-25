@@ -2,10 +2,10 @@
 
 one:
   name: MyString
-  hourly_rate: 1
-  transport_fee: 1
+  hourly_rate: 9.99
+  transport_fee: 9.99
 
 two:
   name: MyString
-  hourly_rate: 1
-  transport_fee: 1
+  hourly_rate: 9.99
+  transport_fee: 9.99
