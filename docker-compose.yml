@@ -17,6 +17,7 @@ services:
       - ./backend:/backend
     environment:
       RAILS_ENV: development
+      TZ: Asia/Tokyo
     ports:
       - "3000:3000"
     depends_on:

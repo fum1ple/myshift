@@ -117,3 +117,199 @@ Migrating to CreateIncomes (20240525073926)
   [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(726724402424905500)[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.5ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "TOKIUM"], ["hourly_rate", "1300.0"], ["transportation_fee", "1000.0"], ["created_at", "2024-05-25 07:48:10.834521"], ["updated_at", "2024-05-25 07:48:10.834521"]]
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkA"], ["hourly_rate", "1000.0"], ["transportation_fee", "500.0"], ["created_at", "2024-05-25 07:48:10.840897"], ["updated_at", "2024-05-25 07:48:10.840897"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkB"], ["hourly_rate", "2000.0"], ["transportation_fee", "850.0"], ["created_at", "2024-05-25 07:48:10.845154"], ["updated_at", "2024-05-25 07:48:10.845154"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mWorkplace Pluck (0.2ms)[0m  [1m[34mSELECT "workplaces"."id" FROM "workplaces"[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.3ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "TOKIUM"], ["hourly_rate", "1300.0"], ["transportation_fee", "1000.0"], ["created_at", "2024-05-25 08:01:38.270564"], ["updated_at", "2024-05-25 08:01:38.270564"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkA"], ["hourly_rate", "1000.0"], ["transportation_fee", "500.0"], ["created_at", "2024-05-25 08:01:38.276022"], ["updated_at", "2024-05-25 08:01:38.276022"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkB"], ["hourly_rate", "2000.0"], ["transportation_fee", "850.0"], ["created_at", "2024-05-25 08:01:38.280513"], ["updated_at", "2024-05-25 08:01:38.280513"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.3ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "TOKIUM"], ["hourly_rate", "1300.0"], ["transportation_fee", "1000.0"], ["created_at", "2024-05-25 08:05:14.718366"], ["updated_at", "2024-05-25 08:05:14.718366"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkA"], ["hourly_rate", "1000.0"], ["transportation_fee", "500.0"], ["created_at", "2024-05-25 08:05:14.723630"], ["updated_at", "2024-05-25 08:05:14.723630"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkB"], ["hourly_rate", "2000.0"], ["transportation_fee", "850.0"], ["created_at", "2024-05-25 08:05:14.727953"], ["updated_at", "2024-05-25 08:05:14.727953"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.3ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "TOKIUM"], ["hourly_rate", "1300.0"], ["transportation_fee", "1000.0"], ["created_at", "2024-05-25 08:09:37.949471"], ["updated_at", "2024-05-25 08:09:37.949471"]]
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.3ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkA"], ["hourly_rate", "1000.0"], ["transportation_fee", "500.0"], ["created_at", "2024-05-25 08:09:37.954912"], ["updated_at", "2024-05-25 08:09:37.954912"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkB"], ["hourly_rate", "2000.0"], ["transportation_fee", "850.0"], ["created_at", "2024-05-25 08:09:37.959093"], ["updated_at", "2024-05-25 08:09:37.959093"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.4ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "TOKIUM"], ["hourly_rate", "1300.0"], ["transportation_fee", "1000.0"], ["created_at", "2024-05-25 08:10:30.976163"], ["updated_at", "2024-05-25 08:10:30.976163"]]
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkA"], ["hourly_rate", "1000.0"], ["transportation_fee", "500.0"], ["created_at", "2024-05-25 08:10:30.981698"], ["updated_at", "2024-05-25 08:10:30.981698"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkB"], ["hourly_rate", "2000.0"], ["transportation_fee", "850.0"], ["created_at", "2024-05-25 08:10:30.986016"], ["updated_at", "2024-05-25 08:10:30.986016"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.4ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "TOKIUM"], ["hourly_rate", "1300.0"], ["transportation_fee", "1000.0"], ["created_at", "2024-05-25 08:12:57.494922"], ["updated_at", "2024-05-25 08:12:57.494922"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkA"], ["hourly_rate", "1000.0"], ["transportation_fee", "500.0"], ["created_at", "2024-05-25 08:12:57.500177"], ["updated_at", "2024-05-25 08:12:57.500177"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkB"], ["hourly_rate", "2000.0"], ["transportation_fee", "850.0"], ["created_at", "2024-05-25 08:12:57.504600"], ["updated_at", "2024-05-25 08:12:57.504600"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Load (0.2ms)[0m  [1m[34mSELECT "workplaces".* FROM "workplaces" WHERE "workplaces"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mShift Create (0.7ms)[0m  [1m[32mINSERT INTO "shifts" ("workplace_id", "start_time", "end_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["workplace_id", 1], ["start_time", "2024-05-01 09:00:00"], ["end_time", "2024-05-01 18:00:00"], ["created_at", "2024-05-25 08:12:57.524733"], ["updated_at", "2024-05-25 08:12:57.524733"]]
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Load (0.2ms)[0m  [1m[34mSELECT "workplaces".* FROM "workplaces" WHERE "workplaces"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mShift Create (0.3ms)[0m  [1m[32mINSERT INTO "shifts" ("workplace_id", "start_time", "end_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["workplace_id", 2], ["start_time", "2024-05-02 16:00:00"], ["end_time", "2024-05-02 21:00:00"], ["created_at", "2024-05-25 08:12:57.531800"], ["updated_at", "2024-05-25 08:12:57.531800"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Load (0.2ms)[0m  [1m[34mSELECT "workplaces".* FROM "workplaces" WHERE "workplaces"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mShift Create (0.3ms)[0m  [1m[32mINSERT INTO "shifts" ("workplace_id", "start_time", "end_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["workplace_id", 3], ["start_time", "2024-05-03 13:00:00"], ["end_time", "2024-05-03 21:00:00"], ["created_at", "2024-05-25 08:12:57.537732"], ["updated_at", "2024-05-25 08:12:57.537732"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mShift Load (0.5ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  [1m[36mShift Load (0.6ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.5ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "TOKIUM"], ["hourly_rate", "1300.0"], ["transportation_fee", "1000.0"], ["created_at", "2024-05-25 08:20:34.345765"], ["updated_at", "2024-05-25 08:20:34.345765"]]
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.3ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkA"], ["hourly_rate", "1000.0"], ["transportation_fee", "500.0"], ["created_at", "2024-05-25 08:20:34.351645"], ["updated_at", "2024-05-25 08:20:34.351645"]]
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.3ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkB"], ["hourly_rate", "2000.0"], ["transportation_fee", "850.0"], ["created_at", "2024-05-25 08:20:34.356828"], ["updated_at", "2024-05-25 08:20:34.356828"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Load (0.2ms)[0m  [1m[34mSELECT "workplaces".* FROM "workplaces" WHERE "workplaces"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mShift Create (0.4ms)[0m  [1m[32mINSERT INTO "shifts" ("workplace_id", "start_time", "end_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["workplace_id", 1], ["start_time", "2024-05-01 00:00:00"], ["end_time", "2024-05-01 09:00:00"], ["created_at", "2024-05-25 08:20:34.377096"], ["updated_at", "2024-05-25 08:20:34.377096"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Load (0.2ms)[0m  [1m[34mSELECT "workplaces".* FROM "workplaces" WHERE "workplaces"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mShift Create (0.2ms)[0m  [1m[32mINSERT INTO "shifts" ("workplace_id", "start_time", "end_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["workplace_id", 2], ["start_time", "2024-05-02 07:00:00"], ["end_time", "2024-05-02 12:00:00"], ["created_at", "2024-05-25 08:20:34.383292"], ["updated_at", "2024-05-25 08:20:34.383292"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Load (0.2ms)[0m  [1m[34mSELECT "workplaces".* FROM "workplaces" WHERE "workplaces"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mShift Create (0.3ms)[0m  [1m[32mINSERT INTO "shifts" ("workplace_id", "start_time", "end_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["workplace_id", 3], ["start_time", "2024-05-03 04:00:00"], ["end_time", "2024-05-03 12:00:00"], ["created_at", "2024-05-25 08:20:34.388976"], ["updated_at", "2024-05-25 08:20:34.388976"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mShift Load (0.4ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (46.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "myshift_development"[0m
+  [1m[35m (40.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "myshift_test"[0m
+  [1m[35m (49.0ms)[0m  [1m[35mCREATE DATABASE "myshift_development" ENCODING = 'unicode'[0m
+  [1m[35m (40.6ms)[0m  [1m[35mCREATE DATABASE "myshift_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "incomes" CASCADE[0m
+  [1m[35m (13.4ms)[0m  [1m[35mCREATE TABLE "incomes" ("id" bigserial primary key, "date" date, "amount" decimal, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "shifts" CASCADE[0m
+  [1m[35m (6.7ms)[0m  [1m[35mCREATE TABLE "shifts" ("id" bigserial primary key, "workplace_id" bigint NOT NULL, "start_time" timestamp(6), "end_time" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (5.9ms)[0m  [1m[35mCREATE INDEX "index_shifts_on_workplace_id" ON "shifts" ("workplace_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "workplaces" CASCADE[0m
+  [1m[35m (10.4ms)[0m  [1m[35mCREATE TABLE "workplaces" ("id" bigserial primary key, "name" character varying, "hourly_rate" decimal, "transportation_fee" decimal, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (2.7ms)[0m  [1m[35mALTER TABLE "shifts" ADD CONSTRAINT "fk_rails_1a7a20f3b2"
+FOREIGN KEY ("workplace_id")
+  REFERENCES "workplaces" ("id")
+[0m
+  [1m[35m (11.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20240525073926)[0m
+  [1m[35m (1.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20240525073712),
+(20240525073737);
+
+[0m
+  [1m[35m (11.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2024-05-25 08:22:47.742210"], ["updated_at", "2024-05-25 08:22:47.742210"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "c472a17fbb9fd5d7b0ab1517f89c06198a3f6eeb"], ["created_at", "2024-05-25 08:22:47.750624"], ["updated_at", "2024-05-25 08:22:47.750624"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "incomes" CASCADE[0m
+  [1m[35m (13.2ms)[0m  [1m[35mCREATE TABLE "incomes" ("id" bigserial primary key, "date" date, "amount" decimal, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "shifts" CASCADE[0m
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE TABLE "shifts" ("id" bigserial primary key, "workplace_id" bigint NOT NULL, "start_time" timestamp(6), "end_time" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (6.1ms)[0m  [1m[35mCREATE INDEX "index_shifts_on_workplace_id" ON "shifts" ("workplace_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "workplaces" CASCADE[0m
+  [1m[35m (11.6ms)[0m  [1m[35mCREATE TABLE "workplaces" ("id" bigserial primary key, "name" character varying, "hourly_rate" decimal, "transportation_fee" decimal, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (2.8ms)[0m  [1m[35mALTER TABLE "shifts" ADD CONSTRAINT "fk_rails_1a7a20f3b2"
+FOREIGN KEY ("workplace_id")
+  REFERENCES "workplaces" ("id")
+[0m
+  [1m[35m (10.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20240525073926)[0m
+  [1m[35m (1.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20240525073712),
+(20240525073737);
+
+[0m
+  [1m[35m (10.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2024-05-25 08:22:47.842967"], ["updated_at", "2024-05-25 08:22:47.842967"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2024-05-25 08:22:47.848764"], ["key", "environment"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "c472a17fbb9fd5d7b0ab1517f89c06198a3f6eeb"], ["created_at", "2024-05-25 08:22:47.853859"], ["updated_at", "2024-05-25 08:22:47.853859"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.4ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "TOKIUM"], ["hourly_rate", "1300.0"], ["transportation_fee", "1000.0"], ["created_at", "2024-05-25 08:22:47.888755"], ["updated_at", "2024-05-25 08:22:47.888755"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkA"], ["hourly_rate", "1000.0"], ["transportation_fee", "500.0"], ["created_at", "2024-05-25 08:22:47.893766"], ["updated_at", "2024-05-25 08:22:47.893766"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Create (0.2ms)[0m  [1m[32mINSERT INTO "workplaces" ("name", "hourly_rate", "transportation_fee", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "WorkB"], ["hourly_rate", "2000.0"], ["transportation_fee", "850.0"], ["created_at", "2024-05-25 08:22:47.898038"], ["updated_at", "2024-05-25 08:22:47.898038"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Load (0.2ms)[0m  [1m[34mSELECT "workplaces".* FROM "workplaces" WHERE "workplaces"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mShift Create (0.5ms)[0m  [1m[32mINSERT INTO "shifts" ("workplace_id", "start_time", "end_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["workplace_id", 1], ["start_time", "2024-05-01 00:00:00"], ["end_time", "2024-05-01 09:00:00"], ["created_at", "2024-05-25 08:22:47.916605"], ["updated_at", "2024-05-25 08:22:47.916605"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Load (0.2ms)[0m  [1m[34mSELECT "workplaces".* FROM "workplaces" WHERE "workplaces"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mShift Create (0.3ms)[0m  [1m[32mINSERT INTO "shifts" ("workplace_id", "start_time", "end_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["workplace_id", 2], ["start_time", "2024-05-02 07:00:00"], ["end_time", "2024-05-02 12:00:00"], ["created_at", "2024-05-25 08:22:47.923293"], ["updated_at", "2024-05-25 08:22:47.923293"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkplace Load (0.2ms)[0m  [1m[34mSELECT "workplaces".* FROM "workplaces" WHERE "workplaces"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mShift Create (0.3ms)[0m  [1m[32mINSERT INTO "shifts" ("workplace_id", "start_time", "end_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["workplace_id", 3], ["start_time", "2024-05-03 04:00:00"], ["end_time", "2024-05-03 12:00:00"], ["created_at", "2024-05-25 08:22:47.929225"], ["updated_at", "2024-05-25 08:22:47.929225"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mShift Load (0.4ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
