@@ -23,3 +23,11 @@ shifts = [
 shifts.each do |workplace_id, start_time, end_time|
   Shift.create(workplace_id: workplace_id, start_time: start_time, end_time: end_time)
 end
+
+incomes = [
+  ["2024-05-01", 80000],
+  ["2024-04-01", 80000]
+]
+incomes.each do |date, amount|
+  Income.create(date: date, amount: amount)
+end

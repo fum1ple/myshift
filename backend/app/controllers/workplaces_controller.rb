@@ -1,4 +1,4 @@
-class WorkplacesController < ApplicationController::API
+class WorkplacesController < ApplicationController
   def index
     workplaces = Workplace.all
     render json: workplaces
